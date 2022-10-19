@@ -1,0 +1,11 @@
+.img-ctr {
+  display: flex;
+}
+.event-dsc {
+  display: flex;
+  /* overflow-y: scroll; */
+}
+.det-p p {
+  text-align: center;
+  color: white;
+}

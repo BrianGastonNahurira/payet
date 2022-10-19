@@ -1,0 +1,122 @@
+.w-banner {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  color: white;
+  background-color: #39b54a;
+}
+
+.w-banner h3 {
+  font-weight: lighter;
+  padding-top: 10px;
+}
+.w-header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  /* flex: 4; */
+  /* justify-content: flex-end; */
+}
+.w-header1 h1 {
+  /* flex: 1; */
+  color: #39b54a;
+  padding: 10px;
+}
+.w-header1 img {
+  width: 4vh;
+}
+.w-header2 {
+  /* flex: 1; */
+  display: flex;
+  padding-top: 10px !important;
+}
+#outlined-search {
+  /* width: 50% !important; */
+  height: 1vh !important;
+}
+.w-header2 .w-header2-btn {
+  padding-top: 3px !important;
+  padding-left: 2px !important;
+}
+.w-header3 {
+  display: flex;
+  /* flex: 2; */
+  /* align-items: flex-end !important;
+  margin-right: 0px !important;
+  justify-content: right !important; */
+  padding-top: 10px !important;
+  padding-right: 5px !important;
+}
+.w-header3 div {
+  padding-right: 5px !important;
+}
+.w-body .aboutus {
+  display: flex;
+  /* width: 90%; */
+  height: 80vh;
+  /* margin: auto; */
+  flex: 3;
+  padding: 80px;
+}
+.aboutus1 p {
+  font-size: large;
+}
+.w-body .aboutus .aboutus1 {
+  /* align-items: center;
+  text-align: center; */
+  flex: 2;
+}
+.w-body .aboutus .aboutus1 p {
+  padding: 20px 0px;
+}
+.w-body .aboutus .aboutus2 {
+  flex: 1;
+}
+.w-body .aboutus .aboutus2 img {
+  padding-top: 50px !important;
+  width: 100%;
+  /* height: 60vh; */
+}
+.ourservices {
+  width: 80%;
+  margin: auto;
+}
+.ourservices h2 {
+  text-align: center;
+}
+.ourservices p {
+  padding: 20px !important;
+  font-size: large;
+}
+.package {
+  display: flex;
+  flex: 4;
+  width: 80%;
+  margin: auto;
+}
+.package1,
+.package2,
+.package3,
+.package4 {
+  flex: 1;
+  padding: 10px !important;
+  margin: 10px !important;
+  border: 2px solid rgb(229, 224, 224);
+}
+.package1:hover,
+.package2:hover,
+.package3:hover,
+.package4:hover {
+  border: 2px solid rgb(179, 175, 175);
+}
+.package1 img,
+.package2 img,
+.package3 img,
+.package4 img {
+  width: 100% !important;
+  height: 25vh !important;
+}
+.Ourpackage h2 {
+  text-align: center;
+}
